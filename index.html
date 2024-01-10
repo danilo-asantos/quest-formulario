@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 - formulario</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+</head>
+<body>
+    <section class="texto">
+        <div>
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+    </section>
+
+    <section class="formulario">
+        <form action="#" id="formulario">
+            <input type="text" placeholder="Nome completo *" class="input ajustar-gap">
+            <span class="mensagem-campo-obrigatorio" hidden>campo obrigatório</span>
+
+            <input type="text" placeholder="Email *" class="input ajustar-gap">
+            <span class="mensagem-campo-obrigatorio" hidden>campo obrigatório</span>
+
+            <input type="text" placeholder="Telefone *" class="input ajustar-gap">
+            <span class="mensagem-campo-obrigatorio" hidden>campo obrigatório</span>
+
+            <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Mensagem *" class="input ajustar-gap"></textarea>
+            <span class="mensagem-campo-obrigatorio" hidden>campo obrigatório</span>
+            <p>*campos obrigatórios</p>
+
+            <button id="botao-enviar">Enviar</button>
+        </form>
+    </section>
+    
+    <script src="src/js/index.js" type="text/javascript"></script>
+</body>
+</html>
